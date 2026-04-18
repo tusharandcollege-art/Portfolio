@@ -112,6 +112,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .nav-links a:hover::after { transform: scaleX(1); }
 .nav-contact { color: var(--ink) !important; font-weight: 600 !important; }
 
+/* ── Global rule: hide all decorative divider lines ── */
+.sec-rule, .landing-rule, .scroll-bar { display: none !important; }
+
 /* ================================================
    SHARED — Section Headers & Buttons
    ================================================ */
